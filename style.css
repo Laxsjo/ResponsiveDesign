@@ -1,0 +1,100 @@
+body {
+    color: black;
+
+    font-size: 1.2rem;
+
+    background-color: hsl(0 0% 100%);
+}
+
+h1 {
+    font-size: 2.3rem;
+    color: black;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: black;
+}
+
+p {
+    margin: 0.8rem 0.5rem;
+    color: hsl(0 0% 0%);
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    display: inline-block;
+
+    margin: 0 0.5rem;
+}
+
+figcaption {
+    margin: 0 0.4rem;
+}
+
+@media screen and (min-width: 420px) {
+    body {
+        font-size: 1rem;
+
+        background-color: hsl(0 0% 95%);
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        margin: 0.8rem 1.2rem;
+        color: hsl(0 0% 30%);
+    }
+
+    figure {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 794px) {
+    body {
+        background: linear-gradient(to right bottom, hsl(0 0% 90%), hsl(0 50% 90%));
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    body {
+        background: hsl(0 0% 20%);
+        color: hsl(0 0% 80%);
+
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        color: hsl(0, 0%, 100%);
+        font-size: 3rem;
+    }
+
+    h2 {
+        color: hsl(0, 0%, 100%);
+        font-size: 2rem;
+    }
+
+    p {
+        color: hsl(0 0% 80%);
+    }
+
+    figcaption {
+        margin: 0.8rem 0;
+
+        color: hsl(0, 0%, 95%);
+    }
+
+    .text {
+        max-width: 70%;
+    }
+}
